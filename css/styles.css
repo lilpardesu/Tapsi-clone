@@ -1,0 +1,27 @@
+/* resets */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* root variables */
+/* colors */
+
+:root {
+    --color-primary: #ff5722;
+    --color-secondary: #ff7a50;
+    --color-secondary-light: #ffa589;
+    --color-seondary-bg: #fff6f2;
+    --color-nav-bg: #f8f8f8;
+    --color-white: #ffffff;
+
+    /* fonts */
+
+    --color-body: #333333;
+    --color-h2: #000000;
+    --color-h3: #141414;
+
+}
