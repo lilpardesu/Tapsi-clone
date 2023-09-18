@@ -12,7 +12,7 @@
     src: url('../fonts/Rubik-Bold.ttf') format('ttf');
 }
 
-body {
+body, button {
     font-family: "Rubik";
     font-weight: 400;
 }
