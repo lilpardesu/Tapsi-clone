@@ -11,3 +11,7 @@
     font-style: normal;
     src: url('../fonts/Qs_Iranyekan\ bold.ttf') format('ttf');
 }
+
+body {
+    font: "IranYekan";
+}
