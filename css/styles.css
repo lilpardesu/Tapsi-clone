@@ -21,7 +21,19 @@
     /* fonts */
 
     --color-body: #333333;
-    --color-h2: #000000;
+    --color-heading: #000000;
     --color-h3: #141414;
 
+}
+
+body {
+    color: var(--color-body);
+}
+
+h1, h2 {
+    color: var(--color-heading);
+}
+
+h3 {
+    color: var(--color-h3);
 }
