@@ -90,7 +90,32 @@ h3 {
     color: var(--color-white);
 }
 
-btn-block {
+.btn-block {
     width: 100%;
 }
 
+
+/* badge styles */
+
+.badge {
+    display: inline-block;
+    font-weight: 700;
+    border: 2px solid var(--color-primary);
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 32px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.badge--primary {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+
+@media screen and (min-width: 1024px) {
+   .badge {
+       font-size: 1.4rem;
+   } 
+}
