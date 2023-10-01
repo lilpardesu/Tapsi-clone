@@ -119,3 +119,23 @@ h3 {
        font-size: 1.4rem;
    } 
 }
+
+/* list component */
+
+.list {
+    list-style: none;
+    font-size: 1.6rem;
+}
+
+.list--inline .list__item {
+    display: inline-block;
+    padding-right: 3rem;
+}
+
+
+.list--check .list__item {
+    background: url(../images/icons8-check-48.png) no-repeat right center;
+    background-size: 2rem;
+    padding-right: 3rem;
+    margin-bottom: 2rem;
+}
