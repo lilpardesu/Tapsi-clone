@@ -149,7 +149,7 @@ h3 {
 .card {
     border-radius: 20px;
     margin: 2rem;
-    background-color: #ccc;
+    background-color: var(--color-white);
     overflow: hidden;
     max-width: 500px;
     box-shadow: 0 0 20px 10px #d7d5d5ca;
