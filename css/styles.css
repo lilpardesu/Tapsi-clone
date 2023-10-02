@@ -155,8 +155,15 @@ h3 {
     box-shadow: 0 0 20px 10px #d7d5d5ca;
 }
 
-.card__header {
+.card--primary .card__header {
+    background-color: var(--color-secondary);
+}
+
+.card--secondary .card__header {
     background-color: var(--color-secondary-light);
+}
+
+.card__header {
     color: var(--color-white);
 }
 
