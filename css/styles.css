@@ -103,6 +103,7 @@ h3 {
     border: 2px solid var(--color-primary);
     font-size: 1.2rem;
     color: var(--color-primary);
+    background-color: var(--color-white);
     padding: 0.5rem 1rem;
     border-radius: 32px;
     text-transform: uppercase;
