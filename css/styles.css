@@ -139,3 +139,32 @@ h3 {
     padding-right: 3rem;
     margin-bottom: 2rem;
 }
+
+/* plan styles */
+
+.plan-block {
+    display: grid;
+}
+
+.card {
+    border-radius: 20px;
+    margin: 2rem;
+    background-color: #ccc;
+    overflow: hidden;
+    max-width: 500px;
+    box-shadow: 0 0 20px 10px #d7d5d5ca;
+}
+
+.card__header {
+    background-color: var(--color-secondary);
+}
+
+.card__header, .card__body {
+    padding: 3rem 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .plan-block {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
