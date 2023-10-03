@@ -66,6 +66,13 @@ h3 {
     }
 }
 
+/* container */
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* button styles */
 
 .btn {
@@ -152,8 +159,10 @@ h3 {
 .plan-block {
     display: grid;
     margin-top: 4rem;
-    row-gap: 5rem;
+    row-gap: 10rem;
     column-gap: 5rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
 }
 
 .plan {
@@ -165,7 +174,7 @@ h3 {
     margin: 2rem;
     background-color: var(--color-white);
     overflow: hidden;
-    max-width: 500px;
+    max-width: 320px;
     box-shadow: 0 0 20px 10px #d7d5d5ca;
 }
 
@@ -229,6 +238,5 @@ h3 {
 
 @media screen and (min-width: 1024px) {
     .plan-block {
-        grid-template-columns: 1fr 1fr 1fr;
     }
 }
