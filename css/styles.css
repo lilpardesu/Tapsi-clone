@@ -73,7 +73,7 @@ h3 {
     outline: 0;
     border: none;
     border-radius: 8px;
-    padding: 2rem 2.5rem;
+    padding: 1.5rem 5rem;
     margin: 1rem 0;
     text-align: center;
     white-space: nowrap;
@@ -90,8 +90,14 @@ h3 {
     color: var(--color-white);
 }
 
-.btn-block {
+.btn--block {
     width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .btn--block {
+        font-size: 1.6rem;
+    }
 }
 
 
@@ -145,6 +151,13 @@ h3 {
 
 .plan-block {
     display: grid;
+    margin-top: 4rem;
+    row-gap: 5rem;
+    column-gap: 5rem;
+}
+
+.plan {
+    transition: all 0.2s ease-in-out;
 }
 
 .card {
@@ -195,6 +208,23 @@ h3 {
 
 .card__header, .card__body {
     padding: 3rem 2.5rem;
+}
+
+.plan-block .btn--block {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.plan--papular {
+    transform: scale(1.1);
+}
+
+.plan--papular:hover {
+    transform: scale(1.15) !important;
+}
+
+.plan:hover {
+    transform: scale(1.05);
 }
 
 @media screen and (min-width: 1024px) {
