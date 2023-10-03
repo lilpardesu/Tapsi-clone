@@ -33,6 +33,7 @@ html {
 body {
     color: var(--color-body);
     font-size: 1.4rem;
+    line-height: 1.7;
 }
 
 h1, h2 {
@@ -45,6 +46,7 @@ h1 {
 
 h2 {
     font-size: 2.2rem;
+    margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -238,5 +240,41 @@ h3 {
 
 @media screen and (min-width: 1024px) {
     .plan-block {
+    }
+}
+
+/* services section */
+
+.services {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.services__image {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4rem;
+    justify-self: center;
+}
+
+
+.services__text, .services__title {
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+}
+
+.services .btn {
+    padding: 1.2rem 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .services {
+        flex-direction: row;
+    }
+
+    .services__text, .services__title {
+        margin-bottom: 3rem;
     }
 }
