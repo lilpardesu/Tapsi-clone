@@ -278,3 +278,48 @@ h3 {
         margin-bottom: 3rem;
     }
 }
+
+/* contact us section styles */
+
+.contact-us {
+    display: grid;
+}
+
+.contact-us__map {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .contact-us {
+        grid-template-areas: 
+        "address form"
+        "map form"
+        "icons form";
+    }
+
+    .contact-us__form {
+        grid-area: form;
+        background-color: red;
+        height: auto;
+    }
+
+    .contact-us__adress {
+        grid-area: address;
+        background-color: green;
+        height: 100px;
+    }
+
+    .contact-us__map {
+        grid-area: map;
+        background-color: blue;
+        height: 100px;
+        display: block;
+    }
+
+    .contact-us__icons {
+        grid-area: icons;
+        background-color: yellow;
+        height: 100px;
+
+    }
+}
