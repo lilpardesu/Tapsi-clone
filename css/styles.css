@@ -289,6 +289,24 @@ h3 {
     display: none;
 }
 
+.contact-us__adress {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.icon-holder__label {
+    max-width: 20px;
+    margin-left: 1rem;
+    display: block;
+}
+
+.icon-holder {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 @media screen and (min-width: 1024px) {
     .contact-us {
         grid-template-areas: 
@@ -305,8 +323,15 @@ h3 {
 
     .contact-us__adress {
         grid-area: address;
-        background-color: green;
         height: 100px;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .icon-holder {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .contact-us__map {
@@ -320,19 +345,23 @@ h3 {
         grid-area: icons;
         background-color: yellow;
         height: 100px;
-
     }
 }
 
 /* icons */
 
 .icon {
-    height: 43px;
-    width: 64px;
+    width: 33px;
+    height: 24px;
+}
+
+.icon-container {
+    height: 26px;
+    width: 33px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #c2c2c2;
+    background-color: #f6f6f6;
     fill: var(--color-primary);
     border-radius: 12px;
     cursor: pointer;
