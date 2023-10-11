@@ -323,3 +323,17 @@ h3 {
 
     }
 }
+
+/* icons */
+
+.icon {
+    height: 43px;
+    width: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2c2c2;
+    fill: var(--color-primary);
+    border-radius: 12px;
+    cursor: pointer;
+}
