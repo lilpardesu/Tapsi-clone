@@ -283,9 +283,16 @@ h3 {
 
 .contact-us {
     display: grid;
+    grid-template-areas: 
+    "icons"
+    "address"
+    "form";
 }
 
+
+
 .contact-us__adress {
+    grid-area: address;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -337,10 +344,19 @@ h3 {
 
 
 .contact-us__icons {
+    grid-area: icons;
     background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-us__icons .icon-container {
+    height: 33px;
+    width: 33px;
 }
 
 .contact-us__form {
+    grid-area: form;
     background-color: red;
 }
 
@@ -354,12 +370,10 @@ h3 {
     }
 
     .contact-us__form {
-        grid-area: form;
         height: auto;
     }
 
     .contact-us__adress {
-        grid-area: address;
         height: 100px;
         flex-direction: row;
         justify-content: space-evenly;
@@ -378,8 +392,12 @@ h3 {
     }
 
     .contact-us__icons {
-        grid-area: icons;
         height: 100px;
+        justify-content: flex-end;
+    }
+
+    .contact-us__icons .icon-container {
+        margin-left: 1.5rem;
     }
 }
 
