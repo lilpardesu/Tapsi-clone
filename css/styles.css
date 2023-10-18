@@ -287,6 +287,8 @@ h3 {
 
 .contact-us__map {
     display: none;
+    background-color: blue;
+
 }
 
 .contact-us__adress {
@@ -307,6 +309,15 @@ h3 {
     flex-direction: column-reverse;
 }
 
+.contact-us__icons {
+    background-color: yellow;
+}
+
+.contact-us__form {
+    background-color: red;
+}
+
+
 @media screen and (min-width: 1024px) {
     .contact-us {
         grid-template-areas: 
@@ -317,7 +328,6 @@ h3 {
 
     .contact-us__form {
         grid-area: form;
-        background-color: red;
         height: auto;
     }
 
@@ -336,14 +346,12 @@ h3 {
 
     .contact-us__map {
         grid-area: map;
-        background-color: blue;
         height: 100px;
         display: block;
     }
 
     .contact-us__icons {
         grid-area: icons;
-        background-color: yellow;
         height: 100px;
     }
 }
