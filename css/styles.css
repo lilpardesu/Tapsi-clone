@@ -345,14 +345,14 @@ h3 {
 
 .contact-us__icons {
     grid-area: icons;
-    background-color: yellow;
     display: flex;
     justify-content: space-around;
+    padding: 1rem 0;
 }
 
 .contact-us__icons .icon-container {
-    height: 33px;
-    width: 33px;
+    height: 35px;
+    width: 35px;
 }
 
 .contact-us__form {
@@ -387,12 +387,18 @@ h3 {
 
     .contact-us__map {
         grid-area: map;
-        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         display: block;
     }
 
+    .contact-us__map img {
+        width: 100%;
+    }
+
     .contact-us__icons {
-        height: 100px;
+        height: auto;
         justify-content: flex-end;
     }
 
