@@ -402,6 +402,10 @@ h3 {
     margin-bottom: 3rem;
 }
 
+::placeholder {
+    font-size: 1.5rem;
+}
+
 
 
 @media screen and (min-width: 1024px) {
