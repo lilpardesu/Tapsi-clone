@@ -358,6 +358,28 @@ h3 {
     background-color: red;
 }
 
+.form-wrapper, .form-wrapper form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-wrapper input, .form-wrapper textarea {
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.form-wrapper textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+.form-wrapper h3 {
+    margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 1024px) {
     .contact-us {
         grid-template-areas: 
