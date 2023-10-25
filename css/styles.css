@@ -482,3 +482,15 @@ h3 {
     }
 }
 
+
+/* footer section */
+
+.main-footer {
+    background-color: var(--color-heading);
+    color: var(--color-white);
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
