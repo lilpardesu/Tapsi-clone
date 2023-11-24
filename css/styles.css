@@ -71,7 +71,7 @@ h3 {
 /* container */
 
 .container {
-    max-width: 1140px;
+    max-width: 2000px;
     margin: 0 auto;
 }
 
@@ -488,9 +488,42 @@ h3 {
 .main-footer {
     background-color: var(--color-heading);
     color: var(--color-white);
+    min-height: 200px;
 }
 
 .footer {
     display: flex;
     flex-wrap: wrap;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.footer__item a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.footer__item h6 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.footer__item.trust {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__trust {
+    background-color: var(--color-white);
+    border-radius: 12px;
+    margin-left: 0.7rem;
 }
