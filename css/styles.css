@@ -488,7 +488,9 @@ h3 {
 .main-footer {
     background-color: var(--color-heading);
     color: var(--color-white);
-    min-height: 200px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer {
@@ -526,4 +528,15 @@ h3 {
     background-color: var(--color-white);
     border-radius: 12px;
     margin-left: 0.7rem;
+    max-width: 100px;
+}
+
+.footer__trust img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .footer__item {
+        margin-left: 2rem;
+    }
 }
