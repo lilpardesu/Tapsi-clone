@@ -593,4 +593,8 @@ h3 {
     .copy-right-desktop {
         display: none;
     }
+
+    .footer__item.trust {
+        width: 100%;
+    }
 }
