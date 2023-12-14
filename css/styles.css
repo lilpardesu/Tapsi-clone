@@ -535,6 +535,12 @@ h3 {
     width: 100%;
 }
 
+.social-links {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
 .social-links a img {
     height: 20px;
 }
