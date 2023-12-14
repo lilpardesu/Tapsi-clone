@@ -502,6 +502,12 @@ h3 {
 
 .brand-col h3 {
     color: var(--color-white);
+    font-size: 1.4rem;
+}
+
+.footer-logo {
+    width: auto;
+    height: 30px;
 }
 
 .copy-right-mobile, .copy-right-desktop {
