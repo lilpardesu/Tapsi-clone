@@ -529,6 +529,10 @@ h3 {
     display: block;
 }
 
+.footer__item a:hover {
+    color: var(--color-primary);
+}
+
 .footer__item h6 {
     font-size: 1.8rem;
     font-weight: bold;
