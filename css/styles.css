@@ -535,10 +535,19 @@ h3 {
     width: 100%;
 }
 
+.social-container {
+
+}
+
 .social-links {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-evenly;
+}
+
+.social-container h3 {
+    display: none;
+    color: var(--color-white);
 }
 
 .social-links a img {
@@ -547,6 +556,18 @@ h3 {
 
 @media screen and (min-width: 768px) {
     .footer__item {
+        margin-left: 2rem;
+    }
+
+    .social-container h3 {
+        display: block;
+    }
+
+    .social-links {
+        justify-content: right;
+    }
+
+    .social-links a {
         margin-left: 2rem;
     }
 }
