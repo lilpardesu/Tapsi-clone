@@ -20,6 +20,8 @@
 
     /* fonts */
 
+
+    --color-footer: #acacac;
     --color-body: #333333;
     --color-heading: #000000;
     --color-h3: #141414;
@@ -498,6 +500,15 @@ h3 {
     flex-wrap: wrap;
 }
 
+.brand-col h3 {
+    color: var(--color-white);
+}
+
+.copy-right-mobile, .copy-right-desktop {
+     color: var(--color-footer);
+}
+
+
 .footer__item {
     display: flex;
     flex-direction: column;
@@ -535,10 +546,6 @@ h3 {
     width: 100%;
 }
 
-.social-container {
-
-}
-
 .social-links {
     display: flex;
     flex-direction: row-reverse;
@@ -569,5 +576,15 @@ h3 {
 
     .social-links a {
         margin-left: 2rem;
+    }
+
+    .copy-right-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .copy-right-desktop {
+        display: none;
     }
 }
